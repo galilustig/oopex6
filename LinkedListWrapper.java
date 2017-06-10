@@ -6,12 +6,14 @@ import java.util.LinkedList;
 public class LinkedListWrapper  {
 
     protected LinkedList<String> linkedListObject;
+    private String higali;
 
     /**
      * Constructs a new LinkedListWrapper object.
      */
     LinkedListWrapper(){
         this.linkedListObject = new LinkedList<String>();
+        this.higali = "hi";
     }
 
     /**
